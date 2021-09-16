@@ -1,0 +1,135 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+body{
+	padding: 168px;
+}
+.content {
+max-width: 860px;
+margin: 0% auto;
+
+}
+.content-top {}
+.content-top__list1 {}
+.content-top__list1 li {
+font-family: Arial;
+font-size: 20px;
+line-height: 36px;
+color: #273d46;
+
+}
+.content-top__list1 li:before{
+	content: '';
+	width: 25px;
+	height: 19px;
+	display: inline-block;
+	background: url('../img/icons/check.png') left no-repeat;
+	padding: 0px 0px 0px 40px;
+}
+.content-top__list1 li:last-child{
+	margin: 0px 0px 81px 0px;
+}
+.content-top__list1 li:nth-child(1){
+text-decoration: line-through;
+}
+.content-top__list1 li:nth-child(2){
+font-weight: 700;
+}
+.content-top__list1 li:nth-child(3){
+font-style: italic;
+}
+.content-top__list1 li:nth-child(4){
+text-transform: uppercase;
+}
+
+.content-top__list2 li {
+font-family: Arial;
+font-size: 20px;
+line-height: 36px;
+color: #273d46;
+}
+.content-top__list2 li:before{
+	content: '';
+	width: 25px;
+	height: 19px;
+	display: inline-block;
+	background: url('../img/icons/check.png') left no-repeat;
+	padding: 0px 0px 0px 40px;
+}
+.content-top__list2 li:hover:before{
+	content: '';
+	width: 25px;
+	height: 19px;
+	display: inline-block;
+	background: url('../img/icons/check2.png') left no-repeat;
+
+}
+.content-top__list2 li:hover{
+	color: #d55a5a;
+}
+.content-top__list2 li:last-child{
+	margin: 0px 0px 137px 0px;
+}
+.content-button {}
+.content-button a{
+	width: 200px;
+	height: 45px;
+	display: inline-block;
+	border-radius: 24px;
+	background: #80b7b3;
+	margin: 0px 80px 118px 0px;
+}
+.content-button a:last-chald{
+	margin: 0px 0px 118px 0px;
+}
+.content-button span{
+	font-family: Arial;
+	line-height: 40px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #ffffff;
+	padding: 30px;
+}
+.content-button span:after{
+	content: '';
+	width: 21px;
+	height: 14px;
+	display: inline-block;
+	padding: 0px 0px 0px 5px;
+	margin: 0px 0px 0px 5px;
+	background: url('../img/icons/arrow.svg') right no-repeat;
+}
+.content-button a:hover{
+	background: #3a5856;
+}
+.content-button a:active{
+	background: #818181;
+}
+.content-bottom p {
+	font-family: Arial;
+	font-size: 18px;
+	line-height: 28px;
+	padding: 0px 0px 43px 0px;
+	max-width:  768px;
+}
+.content-bottom p:nth-child(1):first-line{
+	color: #ff0000;
+}
+.content-bottom p:nth-child(2):first-letter{
+	color: #ff0000;
+	font-size: 25px;
+}
